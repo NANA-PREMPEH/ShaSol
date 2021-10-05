@@ -1,4 +1,4 @@
 from flaskblog import db
 
-def create_table():
+def create_tables():
     db.create_all()
