@@ -5,7 +5,7 @@ import psycopg2
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     # new for heroku database config.
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL_old')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
     # converting database url from postgres --> postgresql
     if SQLALCHEMY_DATABASE_URI and SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
         SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
