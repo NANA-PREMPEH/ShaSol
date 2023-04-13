@@ -8,11 +8,15 @@ from flask_bcrypt import Bcrypt # for password hashing
 from flask_login import LoginManager
 from flask_mail import Mail
 from flaskblog.config import Config
+from flask_ckeditor import CKEditor, CKEditorField
 
 app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy()
 bcrypt = Bcrypt()
+# for CKEDITOR text editor
+ckeditor = CKEditor(app)
+
 # adding some functional to database modules
 login_manager = LoginManager() # handle section in the background
 # for logging in to access a page.
@@ -42,6 +46,8 @@ def create_app(config_class=Config):
     bcrypt.init_app(app)
     login_manager.init_app(app)
     mail.init_app(app)
+    # initialing ckeditor text editor
+    ckeditor.init_app(app)
 
     # importing blueprint object
     # Registrying application
