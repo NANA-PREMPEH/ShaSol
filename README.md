@@ -27,3 +27,9 @@ ShaSol is a micro blogging digital platform that was purposely designed and deve
 + 2. activate the virtual environment which has been included the project i posted here
 + 3. Install all the required packages "pip3 or pip or pipenv " + "install -r requirement.txt" eg. pip install -r requirement
 + 4. after all run the app "python run.app"
+
+## Team Members
++ William Osei Prempeh
++ Samuel Eze
++ Thomas Jesus
++ Ameen Aminu
