@@ -24,7 +24,7 @@ ShaSol is a micro blogging digital platform that was purposely designed and deve
 
 ## How to run the Application or Installation
 + 1. configure your environment variables
-+ 2. activate the virtual environment which has been included the project i posted here
++ 2. activate the virtual environment which has been included in the project posted here
 + 3. Install all the required packages "pip3 or pip or pipenv " + "install -r requirement.txt" eg. pip install -r requirement
 + 4. after all run the app "python run.app"
 
