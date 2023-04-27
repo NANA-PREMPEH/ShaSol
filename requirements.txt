@@ -1,4 +1,4 @@
-dal==1.2.7
+adal==1.2.7
 alembic==1.7.5
 bcrypt==3.2.0
 blinker==1.4
