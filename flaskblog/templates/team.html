@@ -1,5 +1,122 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>Team Members</h1>
-{% endblock content %}
+<h1>Team Members</h1>
 
+<div class="flex-container">
+
+    <body>
+        <div class="container">
+            <div class="cards">
+                <div class="imgBx">
+
+                    <img src="{{ url_for('static', filename='images/prempeh.jpg')}}">
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h2>William Osei Prempeh <br /><span>Back End Developer</span></h2>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="https://web.facebook.com/oseiprempehwilliam"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/NANA__PREMPEH"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/william-osei-prempeh-49798451/"><i
+                                        class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="imgBx">
+                    <img src="{{ url_for('static', filename='images/Eze_Samuel.jpg')}}">
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h2>Eze Samuel<br /><span>Front-end Developer</span></h2>
+                        </span></h2>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="https://www.facebook.com/ifeanyi.alex1
+                                "><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/samuel-eze-264b78200
+                                "><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/sekem_?igshid=ZDdkNTZiNTM="><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="imgBx">
+                    <img src="{{ url_for('static', filename='images/Tom.jpg')}}">
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h2>Thomas Kunle Jesus<br /><span>Back End Developer</span></h2>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="https://web.facebook.com/thomas.jesus.942"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/sonofdsonofgod
+                                "><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/thomas-jesus/"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/tomjes1/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="imgBx">
+                    <img src="{{ url_for('static', filename='images/Am.jpg')}}" />
+                </div>
+                <div class="content">
+                    <div class="details">
+                        <h2>AbdulQudus Aminu
+                            <br /><span>Front end Developer
+                            </span></h2>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="https://www.facebook.com/abdulqudus.aminu?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="www.twitter.com/aare_aminu
+                                "><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="Instagram.com/aminuaare"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/abdulqudus-amin
+                                "><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</div>
+
+{% endblock content %}
